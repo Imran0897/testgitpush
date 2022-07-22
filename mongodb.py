@@ -14,6 +14,26 @@ db1 = client['mongotest']
 coll = db1['test']
 coll.insert_one(d)
 
+d = {
+    "name" : "sudhanshu",
+    "email" : "sudhanshu@gmail.com",
+    "surname" : "kumar"
+}
+
+db1 = client['mongotest']
+coll = db1['test']
+coll.insert_one(d)
+
+d = {
+    "name" : "sudhanshu",
+    "email" : "sudhanshu@gmail.com",
+    "surname" : "kumar"
+}
+
+db1 = client['mongotest']
+coll = db1['test']
+coll.insert_one(d)
+
 git
 
 https://git-scm.com/downloads
